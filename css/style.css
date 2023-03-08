@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 370px;
+    max-width: 700px;
+    height: 500px;
+    background-color: white;
+}
+
+.image{
+    margin-right: 20px;
+}
+.image > img{
+    width: 200px;
+    height: 180px;
+    margin-left: 90px;
+    border-radius: 100%;
+    margin-top: 150px;
+
+}
+
+.fom{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+
+form > h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box_input2{
+    background-color: aliceblue;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.box_input2  > input{
+   margin-top: 5px;
+   margin-left: 43px;
+   width: 210px;
+   outline: none;
+   border: none;
+   height: 30px;
+   background-color: aliceblue;
+}
+.icon1{
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 80px;
+    height: 90px;
+}
+
+.box_input3{
+    background-color: aliceblue;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px; 
+}
+.box_input3 > input{
+    margin-top: 5px;
+    margin-left: 43px;
+    width: 210px;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 80px;
+    height: 90px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+p{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) and (min-width: 365px) {
+    body{
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: block;
+        margin-left: 50px;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .image{
+        display: none;
+    }
+    h3{
+        text-align: center;
+    }
+    
+.fom{
+   margin-top: 60px;
+   margin-left: 0px;
+   margin-right: 40px;
+}
+.box_input2  > input{
+   margin: auto;
+    width: 210px;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: aliceblue;
+ }
+ .icon1{
+     margin-left: 10px;
+     margin-top: -23px;
+     width: 80px;
+     height: 90px;
+ }
+}
